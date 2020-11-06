@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1340px" height="60px" viewBox="0 0 1340 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-1.74078023%" y1="91.3674938%" x2="116.422731%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#2D3EAB" offset="0.071747449%"></stop>
+            <stop stop-color="#0D1E8A" offset="10.4849797%"></stop>
+            <stop stop-color="#0D1E8A" offset="72.7965212%"></stop>
+            <stop stop-color="#495DDE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" fill="url(#linearGradient-1)">
+            <polygon id="Rectangle-2" points="0 0 1340 0 1340 60 670 60 0 60"></polygon>
+        </g>
+    </g>
+</svg>

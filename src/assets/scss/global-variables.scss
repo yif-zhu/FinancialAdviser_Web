@@ -1,0 +1,76 @@
+/* 定义全局变量 */
+
+$--app-theme-color: #5264D9;
+
+// 品牌色 主颜色
+$--color-primary: $--app-theme-color;
+
+// 品牌色 浅颜色
+$--color-primary-light: #5C92FF;
+
+// 辅助色 黄色
+$--color-yellow: #F7BD1B;
+
+// 辅助色 红色
+$--color-red: #F54966;
+
+// 辅助色 绿色
+$--color-green: #39B365;
+
+// 辅助色 橙色
+$--color-orange: #F5762C;
+
+// 中性色 黑
+$--color-black: #2C3340;
+
+// 中性色 灰
+$--color-grey: #646D75;
+
+// 中性色 浅灰
+$--color-grey-light: #B1B8C7;
+
+// 中性色 线条灰
+$--color-grey-border: #E6E9F0;
+
+// 中性色 背景灰
+$--color-grey-background: #F0F2F5;
+
+// 白色
+$--color-white: #fff;
+// 黑色 （ 用于主文本 ）
+$--color-black: rgba(0,0,0,.85);
+// 浅灰色 （ 用于次文本 ）
+$--color-gray: #999;
+// 主色
+$--color-normal: #4d4d4d;
+
+$--color-success: #21b100;
+$--color-danger: #dc0000;
+$--color-placeholder: #c0c4cc;
+
+
+$--input-color: #606266;
+$--input-border-color: #dcdfe6;
+$--input-disabled-color: #e4e7ed;
+$--input-focus-border: $--color-primary;
+$--input-background-color: #f5f7fa;
+
+// 后台管理
+// 主色--蓝
+$--color-primary-admin: #172374;
+$--color-primary-light-admin:#3a4489;
+$--color-gray-admin:#b9b9b9;
+
+
+
+
+
+
+
+
+
+//Media queries breakpoints
+$--screen-xs: 480px !default;
+$--screen-sm: 768px !default;
+$--screen-md: 992px !default;
+$--screen-lg: 1360px !default;

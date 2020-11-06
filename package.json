@@ -1,0 +1,42 @@
+{
+  "name": "FinancialAdviser",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "serve-xiaomi": "vue-cli-service serve --mode xiaomi",
+    "serve-huatai": "vue-cli-service serve --mode huatai",
+    "build": "vue-cli-service build",
+    "build-xiaomi": "cross-env NODE_ENV=production vue-cli-service build --mode xiaomi",
+    "build-huatai": "cross-env NODE_ENV=production vue-cli-service build --mode huatai",
+    "publish": "vue-cli-service build && node publish.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.4.11",
+    "file-saver": "^2.0.2",
+    "highcharts": "^6.2.0",
+    "jquery": "3.3.1",
+    "js-md5": "^0.7.3",
+    "node-rsa": "^1.0.8",
+    "vue": "^2.5.17",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "xlsx": "^0.16.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.17"
+  }
+}

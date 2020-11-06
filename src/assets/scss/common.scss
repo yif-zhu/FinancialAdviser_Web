@@ -1,0 +1,315 @@
+body{
+	color: $--color-black;
+	font-size: 14px;
+}
+// 解决表头错位
+body .el-table th.gutter{
+   display: table-cell!important;
+}
+.clearfix{
+	display: inline-block;
+}
+.clearfix:after{
+	content: '.';
+	display: block;
+	height: 0;
+	line-height: 0;
+	clear: both;
+	visibility: hidden;
+}
+p{
+	margin:0;
+}
+.noData{
+	color:#646D75;
+	text-align:center;
+	font-size:12px;
+	line-height:60px!important;
+}
+.ml-15{
+	margin-left: 15px;
+}
+.mr-5{
+	margin-right: 5px;
+}
+.mr-10{
+	margin-right: 10px;
+}
+.colorPrimary{
+	color:$--color-primary
+}
+.cursorP{
+	cursor: pointer;
+}
+.fr{
+	float: right;
+}
+.transformRotate180{
+	transform:rotate(180deg)
+}
+
+.rightRouter{
+	.detailPage{
+		padding: 10px 20px;
+	}
+}
+
+.data-grid {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	.block {
+		position: relative;
+		padding-left: 20px;
+		font-size: 14px;
+		&:before {
+			position: absolute;
+			top: 50%;
+			left: 0;
+			margin-top: -4px;
+			display: inline-block;
+			content: '';
+			width: 8px;
+			height: 8px;
+			background: rgba(95, 115, 250, 1);
+		}
+	}
+	.hide-all-checkbox{
+		.el-checkbox{
+			display: none;
+		}
+	}
+	.el-table {
+		width: 100%;
+		flex: none; // for ie 11
+		&--mini th{
+			padding: 0px 0;
+		}
+		.el-table-column--selection .cell {
+			padding-right: 0;
+			padding-left: 15px;
+		}
+	}
+	>.el-scrollbar {
+		flex: 1;
+		>.el-scrollbar__wrap {
+			overflow-x: hidden;
+		}
+	}
+	.grid-pager-control {
+		padding: 3px 10px;
+	}
+	.link {
+		color: $--color-primary;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	&--fixed {
+		min-height: 0;
+		>.el-table--mini {
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			>.el-table__header-wrapper {
+				flex-shrink: 0;
+			}
+			>.el-table__body-wrapper {
+				flex: 1;
+				overflow-y: auto;
+			}
+		}
+	}
+}
+// 当data-grid组件属性isFixed设为true时，
+// 嵌套dataGrid组件的父级被添加此样式用于固定布局
+.data-grid-parent--fixed {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	min-height: 0;
+}
+
+// 定义滚动条样式
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+	//background-color: $--color-grey-background;
+}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+.scrollbar::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+	background-color: #000;
+}
+/*定义滚动条轨道 内阴影+圆角*/
+//::-webkit-scrollbar-track {
+//	background-color: $--color-grey-background;
+//}
+::-webkit-scrollbar-thumb {
+	background-color: #cccfd6;
+	opacity: .7;
+	border-radius: 3px;
+}
+.dialogfileUploadBox{
+  position: relative;
+  text-align: center;
+  margin: 15px 0px;
+  >span {
+    display: inline-block;
+    min-width: 100px;
+    text-align: left;
+    vertical-align: baseline;
+    height: 32px;
+    line-height: 32px;
+    text-align: left;
+  }
+  .fileUploadInput {
+    opacity: 0;
+    width: 250px;
+  }
+  .el_fileUploadInput{
+    width: 250px;
+    position: absolute;
+    left: 150px;
+  }
+  .el_fileUploadBtn{
+    padding: 0px 6px;
+    cursor: pointer;
+  }
+}
+
+
+.taskProcess-window{
+	margin: -10px;
+	height: 500px;
+}
+// 管理后台
+#adminPage{
+.table-title {
+	vertical-align: middle;
+	position: relative;
+	display: inline-block;
+	padding:8px;
+	&:before{
+		position: absolute;
+	    top: -1px;
+	    left: -2px;
+	    content: '';
+	    width: 6px;
+	    height: 6px;
+		background-color: $--color-primary;
+	}
+	i{
+		font-size: 12px;
+		vertical-align: middle;
+		color: $--color-primary;
+	}
+}
+.detailPage .itemBox{
+	position: relative;
+	background-color: #fff;
+	margin-bottom: 20px;
+    padding: 15px;
+	&:before{
+		position: absolute;
+		content: '';
+		display: inline-block;
+		top: 5px;
+		left: 5px;
+		width: 15px;
+		height: 20px;
+		border-left:4px solid #959eda;
+		border-top:4px solid $--color-primary;
+	}
+	&:after{
+		position: absolute;
+		content: '';
+		display: inline-block;
+		bottom: 5px;
+		right: 5px;
+		width: 30px;
+		height: 20px;
+		border-right:4px solid #959eda;
+		border-bottom:4px solid $--color-primary;
+	}
+	.content{
+		font-size: 13px;
+	}
+}
+}
+
+.el-dropdown.dropdown-button {
+  &+& {
+    margin-left: 10px;
+  }
+  > .el-button-group{
+    > .el-button{
+      vertical-align: middle;
+			height: 32px;
+    }
+    .dropdown-selected{
+      display: flex;
+      flex: 1;
+      width: 180px;
+      white-space: nowrap;
+      justify-content: space-between;
+      overflow: hidden;
+      .selected-name{
+        max-width: 100%;
+        overflow: hidden;
+        transition: flex-shrink .2s ease-out;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        &:hover{
+          flex-shrink: 0;
+        }
+      }
+    }
+  }
+}
+
+.dropdown-menu {
+  min-width: 160px;
+  &.el-dropdown-menu--mini {
+    >.el-dropdown-menu__item {
+      font-size: 14px;
+      line-height: 30px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      &:hover {
+        color: $--color-primary;
+      }
+      .dropdown-menu-item--flex{
+        display: flex;
+        min-width: 215px;
+        flex: 1;
+        justify-content: space-between;
+        align-content: center;
+        > span:first-child{
+          padding-right: 5px;
+        }
+      }
+    }
+  }
+  &.el-popper[x-placement^=bottom] {
+    margin-top: 2px;
+  }
+  &.el-popper[x-placement^=top] {
+    margin-bottom: 2px;
+  }
+}
+
+.el-dropdown {
+
+  .el-button--default,
+  .el-button--success,
+  .el-button--danger{
+
+    &.el-dropdown__caret-button::before{
+      background: rgba(197, 197, 197, 0.5);
+    }
+  }
+}

@@ -1,0 +1,199 @@
+@import "./element-variables";
+
+// table
+@import "./table";
+
+/* Button Start */
+
+$--button-hover-tint-percent: 20%;
+$--button-active-shade-percent: 10%;
+$--button-plain-border-color: #ccd0de;
+
+@mixin button-plain($color) {
+  color: $--color-normal;
+  background: transparent;
+  border-color: $--button-plain-border-color;
+  &:hover,
+  &:focus {
+    background: $color;
+    border-color: $color;
+    color: $--color-white;
+      i{
+          color: $--color-white;
+      }
+  }
+    i{
+        color: $color;
+    }
+  &:active {
+    background: mix($--color-black, $color, $--button-active-shade-percent);
+    border-color: mix($--color-black, $color, $--button-active-shade-percent);
+    color: $--color-white;
+    outline: none;
+  }
+
+  &.is-disabled {
+    &,
+    &:hover,
+    &:focus,
+    &:active {
+      color: mix($--color-white, $--color-normal, 80%);
+      background-color: $--color-white;
+      border-color: mix($--color-white, $--button-plain-border-color, 80%);
+        i{
+            color: mix($--color-white, $color, 80%);
+        }
+    }
+  }
+}
+
+@mixin button($color, $background-color, $border-color) {
+  color: $color;
+  background-color: $background-color;
+  border-color: $border-color;
+
+  &:hover,
+  &:focus {
+    background: mix($--color-white, $background-color, $--button-hover-tint-percent);
+    border-color: mix($--color-white, $border-color, $--button-hover-tint-percent);
+    color: $color;
+  }
+
+  &:active {
+    background: mix($--color-black, $background-color, $--button-active-shade-percent);
+    border-color: mix($--color-black, $border-color, $--button-active-shade-percent);
+    color: $color;
+    outline: none;
+  }
+
+  &.is-active {
+    background: mix($--color-black, $background-color, $--button-active-shade-percent);
+    border-color: mix($--color-black, $border-color, $--button-active-shade-percent);
+    color: $color;
+  }
+
+  &.is-disabled {
+    &,
+    &:hover,
+    &:focus,
+    &:active {
+      color: $--color-white;
+      background-color: mix($background-color, $--color-white);
+      border-color: mix($border-color, $--color-white);
+    }
+  }
+  &.is-plain {
+    @include button-plain($background-color);
+  }
+}
+
+/* Default */
+.el-button--default{
+  &:hover,
+  &:focus{
+    background-color: mix($--color-white, $--color-primary, 90%);
+    border-color: mix($--color-white, $--color-primary, 70%);
+    color: $--color-primary;
+  }
+  &.is-plain{
+    &:hover,
+    &:focus {
+      background: $--color-white;
+      border-color: $--color-primary;
+      color: $--color-primary;
+    }
+  }
+}
+
+.el-button--primary{
+  @include button($--color-white, $--color-primary, $--color-primary);
+}
+
+.el-button--info{
+  @include button($--color-white, $--color-gray, $--color-gray);
+}
+
+.el-button--success{
+  @include button($--color-white, $--color-success, $--color-success);
+}
+
+.el-button--danger{
+  @include button($--color-white, $--color-danger, $--color-danger);
+}
+
+.el-button--text{
+  color: $--color-primary;
+  &:hover,
+  &:focus {
+    color: mix($--color-white, $--color-primary, $--button-hover-tint-percent);
+  }
+  &:active {
+    color: mix($--color-black, $--color-primary, $--button-active-shade-percent);
+  }
+}
+
+/* Button End */
+
+/* Dialog Start */
+.el-dialog.is-fullscreen{
+  width: 100%!important;
+}
+
+.dialog-draggable-wrap{
+  position: relative;
+  margin: 0 auto;
+  box-sizing: border-box;
+  &.is-fullscreen{
+    width: 100%;
+    height: 100%;
+  }
+}
+.el-dialog__header {
+  padding: 10px 20px;
+  background-color: #f6f6ff;
+  &.is-base-dialog{
+    padding: 0;
+  }
+  .el-dialog__header-inner{
+    padding: 10px 20px;
+    &.dragging{
+      cursor: move;
+      user-select:none;
+    }
+  }
+  >.el-dialog__headerbtn {
+    top: 10px;
+    line-height: 24px;
+    .el-dialog__close{
+      font-size: 18px;
+      color: $--color-gray;
+      &:hover{
+        color: $--color-primary;
+      }
+    }
+  }
+  >.el-dialog__fullscreenbtn{
+    right: 45px;
+    .el-dialog__fullscreen{
+      color: $--color-gray;
+      vertical-align: baseline;
+      line-height: 1;
+      &:hover{
+        color: $--color-primary;
+      }
+    }
+  }
+}
+
+.el-dialog__title {
+  font-size: 16px;
+}
+
+.el-dialog__body {
+  padding: 10px 20px 20px 20px;
+}
+.el-input__inner{
+  background-color: #FFF;
+}
+/* Dialog End */
+

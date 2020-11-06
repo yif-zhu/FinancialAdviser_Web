@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a16a6094-4941-44b8-bd59-ccf5af6d4a58" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="1jiqeFWO4e8RLy2OShHzC6mCUO6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/utils" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="D:/Learning/NodeJs/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yif_z\Desktop\DealViewer\src\utils" />
+      <recent name="C:\Users\yif_z\Desktop\DealViewer\src\components\admin" />
+      <recent name="C:\Users\yif_z\Desktop\DealViewer\src\views\report" />
+      <recent name="C:\Users\yif_z\Desktop\DealViewer\src\views\enterprise" />
+      <recent name="C:\Users\yif_z\Desktop\DealViewer\src\router" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a16a6094-4941-44b8-bd59-ccf5af6d4a58" name="Default Changelist" comment="" />
+      <created>1604297353195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604297353195</updated>
+      <workItem from="1604297354237" duration="2320000" />
+      <workItem from="1604306274600" duration="2254000" />
+      <workItem from="1604309344522" duration="332000" />
+      <workItem from="1604309687785" duration="381000" />
+      <workItem from="1604310095351" duration="6780000" />
+      <workItem from="1604364721212" duration="28524000" />
+      <workItem from="1604452009660" duration="25515000" />
+      <workItem from="1604537876723" duration="62134000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <envs>
+      <env key="npm" value="C:\Users\yif_z\AppData\Roaming\npm" />
+    </envs>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="630" y="301" key="#ESLint" timestamp="1604384897006">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="630" y="301" key="#ESLint/0.0.1536.834@0.0.1536.834" timestamp="1604384897006" />
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604660707505">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1604660707505" />
+    <state x="559" y="225" key="#图像" timestamp="1604373543105">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="559" y="225" key="#图像/0.0.1536.834@0.0.1536.834" timestamp="1604373543105" />
+    <state x="393" y="122" width="812" height="507" key="EnvironmentVariablesDialog" timestamp="1604310039651">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="393" y="122" width="812" height="507" key="EnvironmentVariablesDialog/0.0.1536.834@0.0.1536.834" timestamp="1604310039651" />
+    <state x="274" y="130" key="FileChooserDialogImpl" timestamp="1604646011768">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="274" y="130" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1604646011768" />
+    <state x="274" y="130" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604313011654" />
+    <state x="-5" y="22" width="996" height="707" key="SettingsEditor" timestamp="1604310043461">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="-5" y="22" width="996" height="707" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1604310043461" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1604370441985">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1604370441985" />
+    <state x="740" y="30" width="601" height="804" key="find.popup" timestamp="1604649821037">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="740" y="30" width="601" height="804" key="find.popup/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1604649821037" />
+    <state x="740" y="30" width="601" height="804" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1604396575438" />
+    <state x="211" y="184" key="jetbrains.nodejs.interpreters-dialog" timestamp="1604309729341">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="211" y="184" key="jetbrains.nodejs.interpreters-dialog/0.0.1536.834@0.0.1536.834" timestamp="1604309729341" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1604664408867">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1604664408867" />
+  </component>
+</project>
